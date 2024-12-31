@@ -11,5 +11,5 @@ PetoiRobot.sendSkillStr("kup",3)
 @app.route("/jump")
 def jump():
     print("Jump!")
-    PetoiRobot.sendSkillStr("kbf")
+    PetoiRobot.sendSkillStr("kbf",3)
     return "<b>Jumped!</b>"
